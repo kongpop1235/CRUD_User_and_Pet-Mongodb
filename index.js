@@ -18,8 +18,8 @@ app.use(bp.json())
 app.use(bp.urlencoded({ extended: true }))
 
 app.listen(PORT, () => console.log(`server is running on port : ${PORT}`));
-
 const main = async () => {
+    //!Paste your mongodb link in under this line.
     const uri = "";
 
     const client = new MongoClient(uri);
